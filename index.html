@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=ph1, initial-scale=1.0">
-    <title>Home Page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
@@ -17,45 +18,104 @@
             <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
             <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
             <li><a class="nav-link resume" href="#"></a></li>
+            <a id="resume-button-1" onclick="window.open('./Chandan_Kumar_resume.pdf', '_blank');"
+                download="">Resume</a>
         </ul>
     </nav>
     <!-------------------- HOME ---------------------->
     <section id="home">
+        <img src="./images/img.jpg" class="home-img" alt="#" />
+        <a id="resume-link-2" onclick="window.open('./Chandan_Kumar_resume.pdf', '_blank');" download="">Resume2</a>
+        <!-- <button id="resume-button-2"></button> -->
     </section>
     <!-------------------- ABOUT ---------------------->
     <section id="about" class="about section">
         <title>About</title>
-        <h1 id="user-detail-name">Chandan</h1>
+        <h1 id="user-detail-name">CHANDAN</h1>
         <h2 id="user-detail-intro">
-            I am a Full Stack Developer who know HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS,
-            MONGODB, POSTMAN.
+            I am a Developer who know HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS,
+            MONGODB, POSTMAN
         </h2>
     </section>
     <!-------------------- SKILLS ---------------------->
     <section id="skills">
         <div class="skills-card">
-            <img class="skills-card-img" src="./image/nodejs_logo.png" alt="nodejs.png" />
+            <img class="skills-card-img" src="./images/node-js.png" alt="nodejs.png" />
             <h5 class="skills-card-name">Node JS</h5>
         </div>
         <div class="skills-card">
-            <img class="skills-card-img" src="./image/expressjs_logo.png" alt="express.png" />
+            <img class="skills-card-img" src="./images/express.png" alt="express.png" />
             <h5 class="skills-card-name">Express JS</h5>
         </div>
         <div class="skills-card">
-            <img class="skills-card-img" src="./image/mongoDB_logo.png" alt="mongodb.png" />
+            <img class="skills-card-img" src="./images/mongodb.png" alt="mongodb.png" />
             <h5 class="skills-card-name">Mongo DB</h5>
         </div>
     </section>
     <!-------------------- PROJECTS ---------------------->
     <section id="projects">
+        <!-- 1 -->
+        <div class="project-card">
+            <img src="./images/caratlane.jpg" alt="">
+            <title class="project-title">Jewels</title>
+            <p class="project-description">Description</p>
+            <p class="project-tech-stack">Tech Stack</p>
+            <a class="project-github-link" href="https://github.com/chandan1506/mellow-income-5415">GitHub</a>
+            <a class="project-deployed-link" href="https://snazzy-treacle-ae679c.netlify.app/">Netlify</a>
+        </div>
+        <!-- 2 -->
+        <div class="project-card">
+            <img src="./images/fiverr.webp" alt="">
+            <title class="project-title">Okkjob</title>
+            <p class="project-description">Description</p>
+            <p class="project-tech-stack">Tech Stack</p>
+            <a class="project-github-link" href="https://github.com/chandan1506/domineering-kick-7131">GitHub</a>
+            <a class="project-deployed-link" href="https://vermillion-kheer-8cd042.netlify.app">Netlify</a>
+        </div>
+        <!-- 3 -->
+        <div class="project-card">
+            <img src="./images/tripoto.jpg" alt="">
+            <title class="project-title">Travelwaala</title>
+            <p class="project-description">Description</p>
+            <p class="project-tech-stack">Tech Stack</p>
+            <a class="project-github-link" href="https://github.com/ShuShu-8788/quick-snake-3428">GitHub</a>
+            <a class="project-deployed-link" href="https://travelwaala.netlify.app/">Netlify</a>
+        </div>
+        <!-- 4 -->
+        <div class="project-card">
+            <img src="./images/tripoto.jpg" alt="">
+            <title class="project-title">Travelwaala</title>
+            <p class="project-description">Description</p>
+            <p class="project-tech-stack">Tech Stack</p>
+            <a class="project-github-link" href="https://github.com/ShuShu-8788/quick-snake-3428">GitHub</a>
+            <a class="project-deployed-link" href="https://travelwaala.netlify.app/">Netlify</a>
+        </div>
     </section>
     <!-------------------- CONTACTS ---------------------->
     <section id="contact">
+        <h1>Contact</h1>
+        <a id="contact-github" href="https://github.com/chandan1506">GitHub</a>
+        <a id="contact-linkedin" href="https://www.linkedin.com/in/chandan-kumar-4390b4246/">LinkedIn</a>
+        <a id="contact-phone" href="#">Mobile</a>
+        <a id="contact-email" href="ck893607@gmail.com">Email</a>
     </section>
-    <!-------------------- RESUME ---------------------->
-    <section id="resume"></section>
-    <!-------------------- GitHUB ---------------------->
+    <!-- ------------------ RESUME ----------------------> 
+    <!-- <section id="resume">
+        <a id="resume-link-1" onclick="window.open('./Chandan_Kumar_resume.pdf', '_blank');" download="">Resume2</a> -->
+        <!-- <button id="resume-button-1"></button>
+    </section>
+    <------------------ GitHUB -------------------- -->
     <section class="react-activity-calendar">
+        <h1>GitHub React-Activity-Calendar</h1>
+        <img id="github-streak-stats"
+            src="https://github-readme-streak-stats.herokuapp.com?user=chandan1506&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+            alt="streakstat" />
+        <img id="github-top-langs"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=chandan1506&theme=outrun"
+            alt="top_languages" />
+        <img id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=chandan1506&count_private=true"
+            alt="stat-card" />
     </section>
 </body>
 
