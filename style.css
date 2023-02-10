@@ -1,0 +1,394 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'monteserrat',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+          /* navbar start */
+#nav-menu {
+    width:100%;
+    height:80px;
+    background:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color:#f1f1f1;
+}
+
+.hamburger{
+    display:none
+}
+
+.nav-list ul{
+display: flex;
+}
+
+.nav-list ul li a {
+    display: block;
+    color: #f1f1f1;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin:0 5px
+}
+.nav-list ul li a:hover{
+    color:black;
+}
+
+#resume-button-1{
+    background: yellow;
+    border-radius: 10px;
+    /* border:none; */
+   
+}
+#resume-button-1:hover{
+    background-color:transparent
+}
+#resume-button-1 a{
+    color: black;
+}
+
+
+
+@media all and (max-width: 1320px) {
+
+    #nav-menu{
+        padding: 0 50px;
+         /* width:100%  */
+    }
+   
+}
+@media all and (max-width: 1100px) {
+    #nav-menu{
+       padding: 0 30px;
+       /* width:100% */
+    }
+     
+   }
+
+@media all and (max-width: 900px) {
+      
+    .hamburger{
+    display: block;
+    cursor: pointer;
+    }
+    .hamburger .line{
+    width:30px;
+    height:3px;
+    background: #fefefe;
+    margin: 6px 0px;
+
+    }
+    .nav-list{
+    height: 0px;
+    position: absolute;
+    top: 80px;
+    left:0px;
+    right:0px;
+    width:100vw;
+    background: #11101b;
+    transition: 0.2s;
+    overflow: hidden;
+    }
+    .nav-list.active{
+        height: 450px;
+    }
+    .nav-list ul{
+        display: block;
+        width: fit-content;
+        margin:80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav-list.active ul{
+        opacity:1
+    } 
+    .nav-list ul li a {
+        line-height: 30px;
+        color: red;
+    }
+    .nav-list ul li:hover{
+        background-color: white;
+        border-radius: 10px;
+    }
+    .nav-list ul li:nth-child(6):hover{
+        background-color:  transparent !important;
+    }
+    .nav-list ul li:nth-child(6):hover #resume-button-1{
+        background-color:  white !important;
+    }
+
+}
+
+
+
+                       /* home section styling */
+
+#main-cont{
+    width: 100%;
+}
+#homep{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+#homep>#hlf{
+    width: 55%;
+    height: 100%;
+}
+
+#hlf>#hl{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#hlf h1{
+    font-size: 65px;
+
+}
+#hlf h2{
+    font-size: 40px;
+    font-family: serif;
+}
+
+#homep>#hr{
+
+    width: 45%;
+    height: 100%;
+
+}        
+
+.container{
+    margin-top: 10px;
+}
+.container p{
+font-size: 40px;
+}
+#bsi>p{
+    font-size: 38px;
+}
+#photo{
+    width: 43%;
+    height: 300px;
+    margin-top: 20%;
+    margin-left: 30%;
+
+}
+.home-img{
+    border-radius: 20%;
+}
+
+#resume-button-2{
+    background-color: yellow;
+    height:45px;
+    width:120px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+#resume-button-2 a{
+    font-size: 20px;
+    color: black;
+   
+}
+#resume-button-2:hover{
+   background-color: transparent;
+}
+.typing{
+    color:red
+}
+                              
+    @media all and (min-width: 200px) and (max-width: 680px) {
+
+#homep{
+    height: auto;  
+    }
+    
+#homep{
+    display: block;
+}
+#homep>#hlf{
+
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid grey; */
+
+}
+#hlf p{
+     font-size: 30px;
+}
+#hlf h1{
+    font-size: 40px;
+}
+
+#homep>#hr{
+
+    width: 100%;  
+
+}
+
+#photo img{
+    margin-top: 25px ;
+    margin-left: -80px; 
+    /* border-radius: 10%;  */
+}
+
+    }
+
+@media all and (min-width: 200px) and (max-width: 400px){
+    #photo{
+        width: 40%;
+        height: 200px;
+        /* border: 1px solid grey ; */
+        margin: auto;
+        /* margin-top: 25px ; */
+        
+    }  
+    #photo img{
+        margin-top: 25px ;
+       margin-left: -80px;
+       border:2px solid green;  
+   }
+
+ }
+
+ @media all and (min-width: 681px) and (max-width: 1100px){
+    #homep{
+
+        height: auto;
+        }
+        #photo{
+        width: 60%;
+        
+        }
+        
+        #hlf{
+            width: 117%;
+           margin-left: 40px;
+        }
+        
+        #bsi h1{
+        
+            font-size: 48px;;
+        }
+        
+        #bsi p{
+        
+            font-size: 32px;
+        
+        }
+        #photo img{
+            margin-top: 25px ;
+           margin-left: -80px;
+           border:2px solid green;  
+       }
+   
+
+ }
+
+
+                        /* //about section// */
+
+.hero{
+    text-align: center;
+    width:80%;
+    margin:auto;
+    padding: 30px 0px;
+
+}
+.hero img{
+   display: block;
+   margin: auto;
+   height:220px;
+   width:220px;
+   border-radius: 50%;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   border:3px solid black;
+}
+article h1{
+    font-size: 50px;
+    font-weight: 500;
+    color:yellow
+}
+article h1::after{
+    content:"";
+    height:3px;
+    width:225px;
+   background-color: yellow;
+   display: block;
+   margin: auto;
+}
+content{
+    font-size: 17px;
+    color:#ccc;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+
+           /* skills section */
+ #skills h1{
+    text-align: center;
+    margin-top: 30px;
+    color:yellow;
+    font-size: 40px;
+    font-weight: 20px;
+} 
+#skills>span{
+    display:block ;
+    height:3px;
+    width:220px;
+    background-color:yellow;
+    margin: auto;
+
+}
+#skills{
+    width:100%;
+}
+.skill-box{
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    text-align: center;
+    padding-top: 30px;
+    border: 3px solid red;
+}   
+.skill-box>div{
+  width:180px;
+  height: 180px;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: white;
+}
+.skill-box img{
+   width:100%;
+   border-radius: 30px;
+} 
+
+              
+               
