@@ -2,25 +2,34 @@
 
 let resume1 = document
   .getElementById("resume-link-1")
-  .addEventListener("click", openDrive);
+  .addEventListener("click",()=>{
+    window.location.assign("https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=share_link")
+  });
 
-function openDrive() {
-  window.open(
-    (href =
-      "./Chandan_Kumar_resume.pdf")
-  );
- }
-
-    let resume2 = document
+  let resume2 = document
   .getElementById("resume-link-2")
-  .addEventListener("click", openDrive);
+  .addEventListener("click",()=>{
+    window.location.assign("https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=share_link")
+  });
 
-function openDrive() {
-  window.open(
-    (href =
-      "./Chandan_Kumar_resume.pdf")
-  );
- }
+
+// function openDrive() {
+//   window.open(
+//     (href =
+//       "./Chandan_Kumar_resume.pdf")
+//   );
+//  }
+
+//     let resume2 = document
+//   .getElementById("resume-link-2")
+//   .addEventListener("click", openDrive);
+
+// function openDrive() {
+//   window.open(
+//     (href =
+//       "./Chandan_Kumar_resume.pdf")
+//   );
+//  }
 
 
 
