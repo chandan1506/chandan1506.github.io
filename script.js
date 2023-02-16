@@ -1,7 +1,7 @@
        //resume-button//
 
 let resume1 = document
-  .querySelector("#resume-button-1")
+  .getElementById("resume-link-1")
   .addEventListener("click", openDrive);
 
 function openDrive() {
@@ -9,11 +9,10 @@ function openDrive() {
     (href =
       "./Chandan_Kumar_resume.pdf")
   );
-}
- 
+ }
 
-let resume2 = document
-  .querySelector("#resume-button-2")
+    let resume2 = document
+  .getElementById("resume-link-2")
   .addEventListener("click", openDrive);
 
 function openDrive() {
@@ -21,7 +20,10 @@ function openDrive() {
     (href =
       "./Chandan_Kumar_resume.pdf")
   );
-}
+ }
+
+
+
           //hamburger//
 
 let hamburger = document.querySelector(".hamburger")
