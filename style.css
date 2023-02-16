@@ -59,23 +59,6 @@ display: flex;
     color:turquoise;
 }
 
-/* #resume-button-1{
-    background: turquoise;
-    border-radius: 10px;
-}
-#resume-button-1:hover{
-    background-color:transparent;
-    color:turquoise;
-    border: 2px solid turquoise;
-}
-#resume-button-1:hover a{
-color:turquoise
-}
-#resume-button-1 a{
-    color: black
-} */
-
-
                        /* home section styling */
 
 #main-cont{
@@ -222,7 +205,7 @@ content{
     
 }
 
-.project  .project-card:hover{
+.project-card:hover{
     transform: scale(1.05);
     background: turquoise;
     color: black;

@@ -67,7 +67,7 @@ var typed = new Typed(".typing", {
     sr.reveal('.skill-box',{delay:200})
 
      // scroll PROJECTS//
-    sr.reveal('.project-card',{})
+    sr.reveal('.project',{})
     sr.reveal('.small_div',{delay:100})
     sr.reveal('.project-title',{delay:200})
     sr.reveal('.project-description',{delay:200})
