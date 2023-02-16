@@ -1,6 +1,6 @@
        //resume-button//
 
-let resume = document
+let resume1 = document
   .querySelector("#resume-button-1")
   .addEventListener("click", openDrive);
 
@@ -11,6 +11,17 @@ function openDrive() {
   );
 }
  
+
+let resume2 = document
+  .querySelector("#resume-button-2")
+  .addEventListener("click", openDrive);
+
+function openDrive() {
+  window.open(
+    (href =
+      "./Chandan_Kumar_resume.pdf")
+  );
+}
           //hamburger//
 
 let hamburger = document.querySelector(".hamburger")

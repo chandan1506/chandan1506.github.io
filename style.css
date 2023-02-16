@@ -59,11 +59,9 @@ display: flex;
     color:turquoise;
 }
 
-#resume-button-1{
+/* #resume-button-1{
     background: turquoise;
     border-radius: 10px;
-    /* border:none; */
-   
 }
 #resume-button-1:hover{
     background-color:transparent;
@@ -75,7 +73,7 @@ color:turquoise
 }
 #resume-button-1 a{
     color: black
-}
+} */
 
 
                        /* home section styling */
