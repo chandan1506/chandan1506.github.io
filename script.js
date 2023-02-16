@@ -52,10 +52,10 @@ var typed = new Typed(".typing", {
 
      // scroll HOME//
     sr.reveal('#home',{})
-    sr.reveal('#main-cont p',{delay:200})
-    sr.reveal('#main-cont h1',{delay:300})
-    sr.reveal('.container',{delay:400})
-    sr.reveal('#resume-button-2',{interval:500})
+    sr.reveal('#main-cont p',{delay:300})
+    sr.reveal('#main-cont h1',{delay:400})
+    sr.reveal('.container',{delay:500})
+    sr.reveal('#resume-button-2',{interval:600})
 
    // scroll ABOUT//
     sr.reveal('#about img',{delay:200})
