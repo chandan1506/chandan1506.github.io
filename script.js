@@ -3,20 +3,20 @@
 let resume1 = document
   .getElementById("resume-link-1")
    .addEventListener("click",()=>{;
-    window.location.assign("https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=share_link")
+    window.location.assign("https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=sharing")
   });
 
   let resume2 = document
   .getElementById("resume-link-2")
   .addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=share_link")
+    window.location.assign("https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=sharing")
   });
 
 
 // function opendrive(){
 //   window.open(
 //     (href =
-//       "https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=share_link")
+//       "https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=sharing")
 //   );
 //  }
 
@@ -27,7 +27,7 @@ let resume1 = document
 // function openDrive() {
 //   window.open(
 //     (href =
-//       "https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=share_link")
+//       "https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=sharing")
 //   );
 //  }
 
