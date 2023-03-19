@@ -16,16 +16,6 @@ function opendrive(){
   );
  }
 
-//     let resume2 = document
-//   .getElementById("resume-link-2")
-//   .addEventListener("click", openDrive);
-
-// function openDrive() {
-//   window.open(
-//     (href =
-//       "https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=sharing")
-//   );
-//  }
 
 
 
