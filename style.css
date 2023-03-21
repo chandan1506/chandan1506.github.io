@@ -552,9 +552,15 @@ content{
 }
 
 @media all and (max-width: 300px) {
+    .hero img{
+       width:100%
+    }
     .skill-box{
        margin-left: -40px;
     } 
+    .skill-box>div{
+        width:90px
+    }
     .project-card{
         width:85%;
         margin-left: -5px;
@@ -565,4 +571,30 @@ content{
     .project-deployed-link a{
         font-size: 10px;
     }
+    .info{
+        margin-left: 20px;
+    }
 }
+
+        /* scroll up-button */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #020811;
+    color: turquoise;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 7px;
+  }
+  
+  #myBtn:hover {
+    background-color: turquoise ;
+    color:#010d1d
+  }
