@@ -58,6 +58,18 @@ display: flex;
 .nav-list ul li a:hover{
     color:turquoise;
 }
+#resume-button-1{
+    height:50px;
+    width:110px;
+    border-radius: 12px;
+    border: 2px solid turquoise;
+}
+#resume-button-1:hover{
+   background-color: turquoise;
+}
+#resume-button-1:hover a{
+    color:black
+}
 
                        /* home section styling */
 
@@ -99,7 +111,7 @@ display: flex;
 }
 #resume-button-2:hover{
    background-color: transparent;
-   border: 2px solid turquoise;
+   border: 2px solid turquoise;  
 }
 #resume-button-2:hover a{
     color:turquoise
