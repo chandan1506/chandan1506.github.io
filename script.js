@@ -12,7 +12,7 @@ let resume1 = document
 function opendrive(){
   window.open(
     (href =
-      "https://drive.google.com/file/d/1p8v9YRHPNQ6rQkRQk_PS9NpsTeFT7aDZ/view?usp=sharing")
+      "https://drive.google.com/file/d/1kSFdwpcVkbW_e8m0WiBSx4FtGP0uW84C/view?usp=sharing")
   );
  }
 
