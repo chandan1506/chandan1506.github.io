@@ -1,4 +1,4 @@
-       //resume-button//
+       ///resume-button///
 
 let resume1 = document
   .getElementById("resume-link-1")
